@@ -23,15 +23,15 @@ class UserDB(Base):
     id = Column(Integer, primary_key=True, index=True)
     fullname = Column(String, nullable=False)
     username = Column(String, unique=True, nullable=False)
-    password = Column(String, nullable=False)
-    createdDate = Column(DateTime, default=datetime.utcnow)
-    role = Column(String, nullable=False,default=RoleEnum.guest.value)
+    pwd = Column(String, nullable=False)
+    created = Column(DateTime, default=datetime.utcnow)
+    urole = Column(String, nullable=False,default=RoleEnum.guest.value)
     status = Column(String, nullable=False,default=StatusEnum.active.value)
     phonenumber = Column(String, nullable=True)
     profilePicture = Column(Text, nullable=True)  # Use Text for larger image data or a URL
     region = Column(String, nullable=True)
     street = Column(String, nullable=True)
-    levelOfEducation = Column(String, nullable=False, default=LevelOfEducationEnum.none.value)
+    levelofeducation = Column(String, nullable=False, default=LevelOfEducationEnum.none.value)
     income = Column(String, nullable=False, default=IncomeEnum.below_1000.value)
     email = Column(String, unique=True, nullable=False)
     disability = Column(String, nullable=True)  # Optional field for disability information
@@ -86,7 +86,7 @@ class WorkDB(Base):
 class ProductDB(Base):
     __tablename__ = "products"
     id = Column(Integer, primary_key=True, index=True)
-    productName = Column(String, nullable=False)
+    product_name = Column(String, nullable=False)
     description = Column(Text, nullable=False)
     price = Column(Float, nullable=False)
     image = Column(Text, nullable=True)
