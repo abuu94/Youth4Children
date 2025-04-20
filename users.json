@@ -1,3 +1,4 @@
+users table
 {
   "fullname": "string",
   "username": "string",
@@ -13,4 +14,28 @@
   "income": "below_1000_tsh",
   "email": "string",
   "disability": "string"
+}
+skills Table
+{
+  "skill_name": "string",
+  "skill_level": "beginer",
+  "comments": "string",
+  "user_id": 0
+}
+works Table
+{
+  "work_title": "string",
+  "work_type": "parttime",
+  "work_description": "string",
+  "work_experience": "beginer",
+  "user_id": 0
+}
+products Table
+{
+  "productName": "string",
+  "description": "string",
+  "price": 0,
+  "image": "string",
+  "comments": "string",
+  "user_id": 0
 }
