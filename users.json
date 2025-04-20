@@ -1,0 +1,16 @@
+{
+  "fullname": "string",
+  "username": "string",
+  "password": "string",
+  "createdDate": "2019-08-24T14:15:22Z",
+  "role": "admin",
+  "status": "active",
+  "phonenumber": "string",
+  "profilePicture": "string",
+  "region": "string",
+  "street": "string",
+  "levelOfEducation": "primary",
+  "income": "below_1000_tsh",
+  "email": "string",
+  "disability": "string"
+}
