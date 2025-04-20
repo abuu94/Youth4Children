@@ -1,0 +1,750 @@
+{
+  "users": [
+    {
+      "fullname": "John Mushi",
+      "username": "johnmushi",
+      "password": "hashed_password_001",
+      "createdDate": "2023-01-10T08:30:00Z",
+      "role": "admin",
+      "status": "active",
+      "phonenumber": "+255712345678",
+      "profilePicture": "https://example.com/images/johnmushi.jpg",
+      "region": "Dar es Salaam",
+      "street": "Mbagala Street",
+      "levelOfEducation": "degree",
+      "income": "below_30000_tsh",
+      "email": "john.mushi@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Amina Juma",
+      "username": "aminajuma",
+      "password": "hashed_password_002",
+      "createdDate": "2023-02-15T12:45:00Z",
+      "role": "guest",
+      "status": "pending",
+      "phonenumber": "+255789123456",
+      "profilePicture": null,
+      "region": "Arusha",
+      "street": "Kilimanjaro Road",
+      "levelOfEducation": "secondary",
+      "income": "below_10000_tsh",
+      "email": "amina.juma@example.com",
+      "disability": "visual impairment"
+    },
+    {
+      "fullname": "Peter Kweka",
+      "username": "peterkweka",
+      "password": "hashed_password_003",
+      "createdDate": "2023-03-20T09:15:00Z",
+      "role": "supporter",
+      "status": "active",
+      "phonenumber": null,
+      "profilePicture": "https://example.com/images/peterkweka.jpg",
+      "region": "Mwanza",
+      "street": null,
+      "levelOfEducation": "none",
+      "income": "below_1000_tsh",
+      "email": "peter.kweka@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Fatuma Said",
+      "username": "fatumasaid",
+      "password": "hashed_password_004",
+      "createdDate": "2023-04-05T14:20:00Z",
+      "role": "guest",
+      "status": "active",
+      "phonenumber": "+255765432109",
+      "profilePicture": null,
+      "region": "Dodoma",
+      "street": "Central Avenue",
+      "levelOfEducation": "primary",
+      "income": "below_10000_tsh",
+      "email": "fatuma.said@example.com",
+      "disability": "hearing impairment"
+    },
+    {
+      "fullname": "David Nyerere",
+      "username": "davidnyerere",
+      "password": "hashed_password_005",
+      "createdDate": "2023-05-12T10:00:00Z",
+      "role": "supporter",
+      "status": "suspended",
+      "phonenumber": "+255723456789",
+      "profilePicture": "https://example.com/images/davidnyerere.jpg",
+      "region": "Mbeya",
+      "street": "Soweto Street",
+      "levelOfEducation": "postgraduate",
+      "income": "below_30000_tsh",
+      "email": "david.nyerere@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Mary Chacha",
+      "username": "marychacha",
+      "password": "hashed_password_006",
+      "createdDate": "2023-06-18T11:30:00Z",
+      "role": "guest",
+      "status": "active",
+      "phonenumber": null,
+      "profilePicture": null,
+      "region": "Kilimanjaro",
+      "street": null,
+      "levelOfEducation": "secondary",
+      "income": "below_1000_tsh",
+      "email": "mary.chacha@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Joseph Mwita",
+      "username": "josephmwita",
+      "password": "hashed_password_007",
+      "createdDate": "2023-07-22T15:45:00Z",
+      "role": "admin",
+      "status": "active",
+      "phonenumber": "+255734567890",
+      "profilePicture": "https://example.com/images/josephmwita.jpg",
+      "region": "Zanzibar",
+      "street": "Stone Town",
+      "levelOfEducation": "degree",
+      "income": "below_30000_tsh",
+      "email": "joseph.mwita@example.com",
+      "disability": "mobility impairment"
+    },
+    {
+      "fullname": "Grace Omari",
+      "username": "graceomari",
+      "password": "hashed_password_008",
+      "createdDate": "2023-08-30T09:00:00Z",
+      "role": "guest",
+      "status": "disabled",
+      "phonenumber": "+255745678901",
+      "profilePicture": null,
+      "region": "Tanga",
+      "street": "Coastal Road",
+      "levelOfEducation": "none",
+      "income": "below_1000_tsh",
+      "email": "grace.omari@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Hassan Ali",
+      "username": "hassanali",
+      "password": "hashed_password_009",
+      "createdDate": "2023-09-10T13:15:00Z",
+      "role": "supporter",
+      "status": "active",
+      "phonenumber": null,
+      "profilePicture": "https://example.com/images/hassanali.jpg",
+      "region": "Morogoro",
+      "street": null,
+      "levelOfEducation": "secondary",
+      "income": "below_10000_tsh",
+      "email": "hassan.ali@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Lilian Mrema",
+      "username": "lilianmrema",
+      "password": "hashed_password_010",
+      "createdDate": "2023-10-25T16:00:00Z",
+      "role": "guest",
+      "status": "pending",
+      "phonenumber": "+255756789012",
+      "profilePicture": null,
+      "region": "Iringa",
+      "street": "Main Street",
+      "levelOfEducation": "degree",
+      "income": "below_30000_tsh",
+      "email": "lilian.mrema@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Emmanuel Massawe",
+      "username": "emmanuelmassawe",
+      "password": "hashed_password_011",
+      "createdDate": "2023-11-05T10:30:00Z",
+      "role": "admin",
+      "status": "active",
+      "phonenumber": "+255767890123",
+      "profilePicture": "https://example.com/images/emmanuelmassawe.jpg",
+      "region": "Dar es Salaam",
+      "street": "Upanga Road",
+      "levelOfEducation": "postgraduate",
+      "income": "below_30000_tsh",
+      "email": "emmanuel.massawe@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Zainab Rajab",
+      "username": "zainabrajab",
+      "password": "hashed_password_012",
+      "createdDate": "2023-12-12T14:45:00Z",
+      "role": "guest",
+      "status": "active",
+      "phonenumber": null,
+      "profilePicture": null,
+      "region": "Pemba",
+      "street": null,
+      "levelOfEducation": "primary",
+      "income": "below_1000_tsh",
+      "email": "zainab.rajab@example.com",
+      "disability": "hearing impairment"
+    },
+    {
+      "fullname": "Thomas Magoti",
+      "username": "thomasmagoti",
+      "password": "hashed_password_013",
+      "createdDate": "2024-01-20T08:00:00Z",
+      "role": "supporter",
+      "status": "suspended",
+      "phonenumber": "+255778901234",
+      "profilePicture": "https://example.com/images/thomasmagoti.jpg",
+      "region": "Shinyanga",
+      "street": "Market Street",
+      "levelOfEducation": "secondary",
+      "income": "below_10000_tsh",
+      "email": "thomas.magoti@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Rose Mbilinyi",
+      "username": "rosembilinyi",
+      "password": "hashed_password_014",
+      "createdDate": "2024-02-15T11:15:00Z",
+      "role": "guest",
+      "status": "active",
+      "phonenumber": "+255789012345",
+      "profilePicture": null,
+      "region": "Ruvuma",
+      "street": null,
+      "levelOfEducation": "none",
+      "income": "below_1000_tsh",
+      "email": "rose.mbilinyi@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Abdul Salum",
+      "username": "abdulsalum",
+      "password": "hashed_password_015",
+      "createdDate": "2024-03-10T09:30:00Z",
+      "role": "admin",
+      "status": "active",
+      "phonenumber": "+255790123456",
+      "profilePicture": "https://example.com/images/abdulsalum.jpg",
+      "region": "Kigoma",
+      "street": "Lake Road",
+      "levelOfEducation": "degree",
+      "income": "below_30000_tsh",
+      "email": "abdul.salum@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Esther Kessy",
+      "username": "estherkessy",
+      "password": "hashed_password_016",
+      "createdDate": "2024-04-05T12:00:00Z",
+      "role": "guest",
+      "status": "pending",
+      "phonenumber": null,
+      "profilePicture": null,
+      "region": "Lindi",
+      "street": null,
+      "levelOfEducation": "secondary",
+      "income": "below_10000_tsh",
+      "email": "esther.kessy@example.com",
+      "disability": "mobility impairment"
+    },
+    {
+      "fullname": "Michael Ngowi",
+      "username": "michaelngowi",
+      "password": "hashed_password_017",
+      "createdDate": "2024-05-12T15:00:00Z",
+      "role": "supporter",
+      "status": "active",
+      "phonenumber": "+255701234567",
+      "profilePicture": "https://example.com/images/michaelngowi.jpg",
+      "region": "Songea",
+      "street": "Freedom Avenue",
+      "levelOfEducation": "postgraduate",
+      "income": "below_30000_tsh",
+      "email": "michael.ngowi@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Sarah Mkapa",
+      "username": "sarahmkapa",
+      "password": "hashed_password_018",
+      "createdDate": "2024-06-20T10:45:00Z",
+      "role": "guest",
+      "status": "disabled",
+      "phonenumber": "+255712345890",
+      "profilePicture": null,
+      "region": "Mtwara",
+      "street": null,
+      "levelOfEducation": "primary",
+      "income": "below_1000_tsh",
+      "email": "sarah.mkapa@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "James Mwaipaja",
+      "username": "jamesmwaipaja",
+      "password": "hashed_password_019",
+      "createdDate": "2024-07-15T13:30:00Z",
+      "role": "admin",
+      "status": "active",
+      "phonenumber": "+255723456901",
+      "profilePicture": "https://example.com/images/jamesmwaipaja.jpg",
+      "region": "Tabora",
+      "street": "Station Road",
+      "levelOfEducation": "degree",
+      "income": "below_30000_tsh",
+      "email": "james.mwaipaja@example.com",
+      "disability": null
+    },
+    {
+      "fullname": "Neema Lyimo",
+      "username": "neemalyimo",
+      "password": "hashed_password_020",
+      "createdDate": "2024-08-10T08:15:00Z",
+      "role": "guest",
+      "status": "active",
+      "phonenumber": null,
+      "profilePicture": null,
+      "region": "Singida",
+      "street": null,
+      "levelOfEducation": "none",
+      "income": "below_1000_tsh",
+      "email": "neema.lyimo@example.com",
+      "disability": null
+    }
+  ],
+  "skills": [
+    {
+      "skill_name": "Python Programming",
+      "skill_level": "intermediate",
+      "comments": "Experienced in Flask and Django",
+      "user_id": 1
+    },
+    {
+      "skill_name": "Carpentry",
+      "skill_level": "advanced",
+      "comments": "Specializes in custom furniture",
+      "user_id": 2
+    },
+    {
+      "skill_name": "Graphic Design",
+      "skill_level": "beginner",
+      "comments": null,
+      "user_id": 3
+    },
+    {
+      "skill_name": "Data Analysis",
+      "skill_level": "expert",
+      "comments": "Proficient in pandas and SQL",
+      "user_id": 1
+    },
+    {
+      "skill_name": "Tailoring",
+      "skill_level": "intermediate",
+      "comments": "Creates traditional and modern clothing",
+      "user_id": 4
+    },
+    {
+      "skill_name": "Web Development",
+      "skill_level": "advanced",
+      "comments": "Skilled in React and Node.js",
+      "user_id": 5
+    },
+    {
+      "skill_name": "Plumbing",
+      "skill_level": "beginner",
+      "comments": null,
+      "user_id": 6
+    },
+    {
+      "skill_name": "Digital Marketing",
+      "skill_level": "intermediate",
+      "comments": "Experienced in SEO and social media",
+      "user_id": 7
+    },
+    {
+      "skill_name": "Electrical Repair",
+      "skill_level": "advanced",
+      "comments": "Certified electrician",
+      "user_id": 8
+    },
+    {
+      "skill_name": "Mobile App Development",
+      "skill_level": "expert",
+      "comments": "Developed apps using Flutter",
+      "user_id": 9
+    },
+    {
+      "skill_name": "Photography",
+      "skill_level": "intermediate",
+      "comments": "Specializes in event photography",
+      "user_id": 10
+    },
+    {
+      "skill_name": "Masonry",
+      "skill_level": "advanced",
+      "comments": "Experienced in building construction",
+      "user_id": 11
+    },
+    {
+      "skill_name": "Content Writing",
+      "skill_level": "beginner",
+      "comments": null,
+      "user_id": 12
+    },
+    {
+      "skill_name": "Farming",
+      "skill_level": "expert",
+      "comments": "Knowledgeable in organic farming",
+      "user_id": 13
+    },
+    {
+      "skill_name": "Accounting",
+      "skill_level": "intermediate",
+      "comments": "Proficient in QuickBooks",
+      "user_id": 14
+    },
+    {
+      "skill_name": "Video Editing",
+      "skill_level": "advanced",
+      "comments": "Uses Adobe Premiere Pro",
+      "user_id": 15
+    },
+    {
+      "skill_name": "Cooking",
+      "skill_level": "beginner",
+      "comments": null,
+      "user_id": 16
+    },
+    {
+      "skill_name": "Cybersecurity",
+      "skill_level": "expert",
+      "comments": "Certified in ethical hacking",
+      "user_id": 17
+    },
+    {
+      "skill_name": "Interior Design",
+      "skill_level": "intermediate",
+      "comments": "Focuses on residential spaces",
+      "user_id": 18
+    },
+    {
+      "skill_name": "Translation",
+      "skill_level": "advanced",
+      "comments": "Fluent in Swahili and English",
+      "user_id": 19
+    }
+  ],
+  "works": [
+    {
+      "work_title": "Software Developer",
+      "work_type": "fulltime",
+      "work_description": "Developed backend services for a fintech startup",
+      "work_experience": "intermediate",
+      "user_id": 1
+    },
+    {
+      "work_title": "Furniture Maker",
+      "work_type": "freelance",
+      "work_description": "Designed and built custom wooden tables",
+      "work_experience": "advanced",
+      "user_id": 2
+    },
+    {
+      "work_title": "Freelance Designer",
+      "work_type": "parttime",
+      "work_description": "Created logos for local businesses",
+      "work_experience": "beginner",
+      "user_id": 3
+    },
+    {
+      "work_title": "Tailor",
+      "work_type": "fulltime",
+      "work_description": "Sewed traditional attire for events",
+      "work_experience": "intermediate",
+      "user_id": 4
+    },
+    {
+      "work_title": "Web Developer",
+      "work_type": "freelance",
+      "work_description": "Built e-commerce websites using React",
+      "work_experience": "advanced",
+      "user_id": 5
+    },
+    {
+      "work_title": "Plumber",
+      "work_type": "parttime",
+      "work_description": "Installed piping systems for homes",
+      "work_experience": "beginner",
+      "user_id": 6
+    },
+    {
+      "work_title": "Marketing Consultant",
+      "work_type": "fulltime",
+      "work_description": "Managed social media campaigns",
+      "work_experience": "intermediate",
+      "user_id": 7
+    },
+    {
+      "work_title": "Electrician",
+      "work_type": "freelance",
+      "work_description": "Repaired household electrical systems",
+      "work_experience": "advanced",
+      "user_id": 8
+    },
+    {
+      "work_title": "App Developer",
+      "work_type": "fulltime",
+      "work_description": "Developed a mobile app for a startup",
+      "work_experience": "expert",
+      "user_id": 9
+    },
+    {
+      "work_title": "Event Photographer",
+      "work_type": "parttime",
+      "work_description": "Captured photos at weddings and events",
+      "work_experience": "intermediate",
+      "user_id": 10
+    },
+    {
+      "work_title": "Construction Worker",
+      "work_type": "fulltime",
+      "work_description": "Built residential houses",
+      "work_experience": "advanced",
+      "user_id": 11
+    },
+    {
+      "work_title": "Blogger",
+      "work_type": "freelance",
+      "work_description": "Wrote articles on travel and culture",
+      "work_experience": "beginner",
+      "user_id": 12
+    },
+    {
+      "work_title": "Farmer",
+      "work_type": "fulltime",
+      "work_description": "Managed a small organic farm",
+      "work_experience": "expert",
+      "user_id": 13
+    },
+    {
+      "work_title": "Bookkeeper",
+      "work_type": "parttime",
+      "work_description": "Handled financial records for SMEs",
+      "work_experience": "intermediate",
+      "user_id": 14
+    },
+    {
+      "work_title": "Video Editor",
+      "work_type": "freelance",
+      "work_description": "Edited promotional videos for brands",
+      "work_experience": "advanced",
+      "user_id": 15
+    },
+    {
+      "work_title": "Caterer",
+      "work_type": "parttime",
+      "work_description": "Prepared meals for small events",
+      "work_experience": "beginner",
+      "user_id": 16
+    },
+    {
+      "work_title": "Security Analyst",
+      "work_type": "fulltime",
+      "work_description": "Conducted penetration testing for firms",
+      "work_experience": "expert",
+      "user_id": 17
+    },
+    {
+      "work_title": "Interior Decorator",
+      "work_type": "freelance",
+      "work_description": "Designed home interiors",
+      "work_experience": "intermediate",
+      "user_id": 18
+    },
+    {
+      "work_title": "Translator",
+      "work_type": "parttime",
+      "work_description": "Translated documents for NGOs",
+      "work_experience": "advanced",
+      "user_id": 19
+    },
+    {
+      "work_title": "Teacher",
+      "work_type": "fulltime",
+      "work_description": "Taught mathematics at a secondary school",
+      "work_experience": "intermediate",
+      "user_id": 20
+    }
+  ],
+  "products": [
+    {
+      "productName": "Wooden Coffee Table",
+      "description": "Handcrafted coffee table made from mahogany",
+      "price": 150000.0,
+      "image": "https://example.com/images/coffee_table.jpg",
+      "comments": "Custom sizes available",
+      "user_id": 2
+    },
+    {
+      "productName": "Digital Logo Pack",
+      "description": "Set of 5 unique logos for businesses",
+      "price": 50000.0,
+      "image": null,
+      "comments": "Delivered in PNG and SVG formats",
+      "user_id": 3
+    },
+    {
+      "productName": "Python E-Book",
+      "description": "Beginner-friendly guide to Python",
+      "price": 25000.0,
+      "image": "https://example.com/images/python_ebook.jpg",
+      "comments": null,
+      "user_id": 1
+    },
+    {
+      "productName": "Traditional Dress",
+      "description": "Hand-stitched kitenge dress",
+      "price": 80000.0,
+      "image": "https://example.com/images/kitenge_dress.jpg",
+      "comments": "Available in multiple colors",
+      "user_id": 4
+    },
+    {
+      "productName": "E-Commerce Website",
+      "description": "Custom-built online store",
+      "price": 500000.0,
+      "image": null,
+      "comments": "Includes hosting for 1 year",
+      "user_id": 5
+    },
+    {
+      "productName": "Piping Kit",
+      "description": "Set of plumbing tools and pipes",
+      "price": 30000.0,
+      "image": "https://example.com/images/piping_kit.jpg",
+      "comments": null,
+      "user_id": 6
+    },
+    {
+      "productName": "Social Media Ad",
+      "description": "Custom ad campaign for Instagram",
+      "price": 60000.0,
+      "image": null,
+      "comments": "30-day campaign",
+      "user_id": 7
+    },
+    {
+      "productName": "Electrical Repair Kit",
+      "description": "Tools for home electrical repairs",
+      "price": 45000.0,
+      "image": "https://example.com/images/electrical_kit.jpg",
+      "comments": null,
+      "user_id": 8
+    },
+    {
+      "productName": "Mobile App",
+      "description": "Custom app for small businesses",
+      "price": 800000.0,
+      "image": null,
+      "comments": "iOS and Android versions",
+      "user_id": 9
+    },
+    {
+      "productName": "Photo Album",
+      "description": "Printed album of event photos",
+      "price": 70000.0,
+      "image": "https://example.com/images/photo_album.jpg",
+      "comments": "Custom designs available",
+      "user_id": 10
+    },
+    {
+      "productName": "Cement Blocks",
+      "description": "High-quality cement blocks for construction",
+      "price": 2000.0,
+      "image": null,
+      "comments": "Price per block",
+      "user_id": 11
+    },
+    {
+      "productName": "Travel Blog",
+      "description": "E-book on Tanzanian travel destinations",
+      "price": 15000.0,
+      "image": "https://example.com/images/travel_ebook.jpg",
+      "comments": null,
+      "user_id": 12
+    },
+    {
+      "productName": "Organic Vegetables",
+      "description": "Freshly harvested vegetables",
+      "price": 5000.0,
+      "image": "https://example.com/images/vegetables.jpg",
+      "comments": "Weekly delivery available",
+      "user_id": 13
+    },
+    {
+      "productName": "Financial Report",
+      "description": "Detailed financial analysis for SMEs",
+      "price": 100000.0,
+      "image": null,
+      "comments": "Customized reports",
+      "user_id": 14
+    },
+    {
+      "productName": "Promotional Video",
+      "description": "1-minute video for brand promotion",
+      "price": 120000.0,
+      "image": null,
+      "comments": "HD quality",
+      "user_id": 15
+    },
+    {
+      "productName": "Catering Package",
+      "description": "Meal package for 10 people",
+      "price": 60000.0,
+      "image": "https://example.com/images/catering.jpg",
+      "comments": "Custom menus available",
+      "user_id": 16
+    },
+    {
+      "productName": "Security Audit",
+      "description": "Cybersecurity assessment for businesses",
+      "price": 300000.0,
+      "image": null,
+      "comments": "Includes report",
+      "user_id": 17
+    },
+    {
+      "productName": "Decor Package",
+      "description": "Interior decor for small homes",
+      "price": 200000.0,
+      "image": "https://example.com/images/decor_package.jpg",
+      "comments": "Custom designs",
+      "user_id": 18
+    },
+    {
+      "productName": "Translated Book",
+      "description": "Swahili translation of a novel",
+      "price": 40000.0,
+      "image": null,
+      "comments": null,
+      "user_id": 19
+    },
+    {
+      "productName": "Math Workbook",
+      "description": "Secondary school math exercises",
+      "price": 20000.0,
+      "image": "https://example.com/images/math_workbook.jpg",
+      "comments": "Includes answer key",
+      "user_id": 20
+    }
+  ]
+}
