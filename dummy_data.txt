@@ -80,3 +80,7 @@ INSERT INTO products (product_name, description, price, image, comments, user_id
 ('Notebook', 'Stylish and compact notebook for writing', 15.00, 'notebook.jpg', 'Ideal for creative writers', 2),
 ('Guitar', 'Beginner-friendly acoustic guitar', 300.00, 'guitar.jpg', 'Perfect for music learners', 2);
 
+Argument of type '{ fullname: string; username: string; pwd: string; created: string; urole: string; status: string; phonenumber: string; picture: string; region: string; street: string; levelofeducation: string; income: string; email: string; disability: string; }' is not assignable to parameter of type 'UserRequest'.
+  Types of property 'urole' are incompatible.
+    Type 'string' is not assignable to type '"admin" | "guest" | "supporter"'
+
